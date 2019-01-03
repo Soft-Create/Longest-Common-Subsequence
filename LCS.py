@@ -18,7 +18,7 @@ def lcs(x,y):
             else:
                 L[i][j] = max(L[i-1][j],L[i][j-1])
     
-    #The final resullt of leading diagonal
+    #The final resullt
     return L[m][n]
 
 x=input("First string : ")
